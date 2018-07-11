@@ -158,6 +158,12 @@ footer {
   margin-left: 18px;
 }
 
+.logo {
+  position: relative;
+  left: -480px;
+  top: -100px;
+}
+
 .myImages {
   width: auto;
   margin: auto;
@@ -232,6 +238,12 @@ footer {
     left: 1px;
     width: 100%;
   }
+  .logo {
+    position: relative;
+    left: -310px;
+    top: -90px;
+  }
+  
 
   .container {
     margin-bottom: 20px;
@@ -274,6 +286,14 @@ footer {
     font-size: 25px;
     color: white;
   }
+
+  .logo {
+    position: relative;
+    left: -210px;
+    top: -80px;
+    max-width:250px; 
+  }
+  
 
   .container {
     width: auto;
@@ -347,6 +367,15 @@ footer {
     font-size: 12px;
   }
 
+  .logo {
+    position: relative;
+    left: -230px;
+    top: -60px;
+    min-width:200px; 
+  }
+  
+
+
   .container {
     margin-bottom: 16px;
   }
@@ -413,6 +442,13 @@ footer {
   p {
     font-size: 14px;
   }
+  .logo {
+   position: relative;
+   left: -7px;
+   top: -90px;
+    max-width:300px; 
+  }
+  
 
   h4:hover {
     background-color: #283593;
