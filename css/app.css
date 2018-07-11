@@ -1,0 +1,584 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+article {
+  margin: auto;
+  width: 76%;
+  padding: 10px;
+  padding: 10px;
+}
+h4 {
+  margin: auto;
+  border-radius: 5px;
+  background-color: #e8eaf6;
+  margin: 3px;
+  font-size: 20px;
+  display: block;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #5c6bc0;
+}
+
+h4:hover {
+  background-color: #283593;
+  color: white;
+  font-size: 22px;
+  -moz-transition: 0.4s linear;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s linear;
+  border-radius: 5px;
+}
+
+span {
+  display: inline-block;
+}
+
+p {
+  margin: 1px;
+  padding: 0px;
+  display: block;
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+video {
+  width: 100%;
+}
+
+header,
+footer {
+  font-family: "Shrikhand", cursive;
+  padding: 1em;
+  color: white;
+  background-color: #1a237e;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.container {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 1120px;
+}
+
+.generos {
+  width: auto;
+  margin: auto;
+  font-family: "Shrikhand", cursive;
+  background: #5c6bc0;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  color: #ef6c00;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+.generos:hover {
+  -moz-transition: 0.4s linear;
+  -webkit-transition: 0.4s ease-out;
+  transition: 0.4s linear;
+  background-color: #1a237e;
+  color: white;
+  font-size: 27px;
+}
+
+.generos-musicales {
+  display: none;
+}
+
+.esconder1,
+.esconder2 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.carpetas {
+  display: inline-block;
+  background-color: #e8eaf6;
+  color: #212121;
+  border-radius: 3%;
+  margin-left: 10px;
+}
+
+.carpetas-1,
+.carpetas-2,
+.carpetas-3,
+.carpetas-4,
+.carpetas-5,
+.carpetas-6,
+.carpetas-7,
+.carpetas-8,
+.carpetas-9,
+.carpetas-10,
+.carpetas-11,
+.carpetas-12,
+.carpetas-13,
+.carpetas-14,
+.carpetas-15,
+.carpetas-16,
+.carpetas-17,
+.carpetas-18,
+.carpetas-19,
+.carpetas-20,
+.carpetas-21,
+.carpetas-22,
+.carpetas-23,
+.carpetas-24,
+.carpetas-25,
+.carpetas-26,
+.carpetas-27,
+.carpetas-28,
+.carpetas-29,
+.carpetas-30 {
+  display: none;
+}
+
+.canciones {
+  color: #424242;
+}
+
+.myImages {
+  width: auto;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.myImages2 {
+  display: none;
+}
+
+.myMusic {
+  width: 28%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.6em;
+  float: left;
+  margin-top: 3px;
+  color: #e65100;
+}
+
+.portada {
+  background-image: url("../images/dj4.jpg");
+  height: 330px;
+  padding: 1em;
+  color: white;
+  clear: left;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.video {
+  display: flex;
+  justify-content: space-between;
+}
+
+.simbolo {
+  float: right;
+  margin-right: 1.5%;
+  font-size: 1em;
+  color: #c5cae9;
+  padding-bottom: 3px;
+}
+.simbolo-boton {
+  color: #c5cae9;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+#mytexto {
+  word-spacing: 7px;
+}
+
+.referencia {
+  font-size: 25px;
+  font-family: "Courgette", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1025px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  video {
+    position: relative;
+    left: 1px;
+    width: 100%;
+  }
+
+  .container {
+    margin-bottom: 20px;
+  }
+  .referencia {
+    margin: 10px;
+    font-size: 26px;
+    font-family: "Courgette", cursive;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  video {
+    position: relative;
+    left: 25px;
+    width: 100%;
+    display: inline-block;
+  }
+
+  hr {
+    display: block;
+    margin: 2px;
+    position: relative;
+    top: -10px;
+    border: solid 1px;
+    width: 190px;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+  }
+
+  .container {
+    width: auto;
+    margin-bottom: 20px;
+  }
+
+  .portada {
+    background-image: url("../images/dj3.jpg");
+    height: 260px;
+    padding: 1.2em;
+    font-size: 1em;
+  }
+
+  .generos {
+    display: block;
+    margin: auto;
+    width: auto;
+    margin-bottom: 15px;
+  }
+
+  .generos-musicales {
+    width: 90%;
+    margin: auto;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+  .referencia {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: "Courgette", cursive;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+    font-size: 22px;
+    color: white;
+  }
+
+  video {
+    position: relative;
+    left: -36px;
+    width: 115%;
+
+    display: inline-block;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  .container {
+    margin-bottom: 16px;
+  }
+
+  .generos {
+    width: auto;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: #ef6c00;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    margin-top: 2px;
+  }
+  .carpetas {
+    width: auto;
+    display: inline-block;
+    padding: 5px;
+  }
+
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+  .title {
+    font-size: 4.2em;
+  }
+
+  .referencia {
+    margin: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 0;
+    font-size: 23px;
+    font-family: "Courgette", cursive;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  article {
+    margin: auto;
+    width: 92%;
+    padding: 0px;
+  }
+
+  video {
+    width: 105%;
+    position: relative;
+    left: -10px;
+  }
+
+  h4 {
+    font-size: 19px;
+    color: #5c6bc0;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  h4:hover {
+    background-color: #283593;
+    color: white;
+    font-size: 22px;
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s ease-out;
+    transition: 0.4s linear;
+    border-radius: 2px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 2em;
+    float: left;
+    margin-top: 3px;
+    color: #e65100;
+  }
+
+  .container {
+    margin-bottom: 10px;
+  }
+
+  .portada {
+    background-image: url("../images/dj5.jpg");
+    height: 170px;
+    font-size: 0.7em;
+  }
+
+  .generos {
+    display: block;
+    margin: auto;
+    width: auto;
+    margin-bottom: 10px;
+    font-size: 23px;
+  }
+  .generos:hover {
+    -moz-transition: 0.4s linear;
+    -webkit-transition: 0.4s ease-out;
+    transition: 0.4s linear;
+    background-color: #1a237e;
+    color: white;
+    font-size: 21px;
+  }
+
+  .generos-musicales {
+    display: none;
+  }
+  .simbolo-boton {
+    color: #c5cae9;
+    margin-left: 16px;
+    font-size: 20px;
+  }
+
+  .carpetas {
+    text-align: center;
+    display: block;
+    padding: 1px;
+    background: #c5cae9;
+    margin: auto;
+  }
+
+  .myImages {
+    display: none;
+  }
+
+  .myImages2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  img {
+    min-height: 300px;
+    max-height: 160px;
+    max-width: 310px;
+    min-width: 150px;
+    margin: auto;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .title {
+    position: relative;
+    left: 40px;
+    top: 85px;
+    font-size: 5.5em;
+    color: #e65100;
+  }
+
+  .referencia {
+    font-size: 17px;
+    position: relative;
+    left: -10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  video {
+    width: 105%;
+    height: auto;
+    position: relative;
+    left: -8px;
+  }
+
+  h4 {
+    font-size: 19px;
+    color: #5c6bc0;
+  }
+  p {
+    font-size: 14px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 2.6em;
+    float: left;
+    margin-top: 3px;
+    color: #e65100;
+  }
+
+  .container {
+    margin-bottom: 10px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-small {
+    background: #5c6bc0;
+    display: inline-block;
+    position: relative;
+    left: 0px;
+    top: -23px;
+    font-family: "Shrikhand", cursive;
+
+    width: 100%;
+  }
+  .portada {
+    background-image: url("../images/dj6.jpg");
+    height: 90px;
+  }
+
+  .hr-small {
+    width: 250px;
+    border: solid 1px #e8eaf6;
+    margin: auto;
+  }
+
+  .title {
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-size: 4em;
+    color: #e65100;
+  }
+
+  .referencia {
+    font-size: 17px;
+  }
+}

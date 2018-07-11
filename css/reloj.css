@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+}
+
+.caja-centrada {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.caja-reloj {
+  margin: auto;
+  display: inline-block;
+  background-color: #bbdefb;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border-radius: 3px;
+}
+
+.caja-reloj p {
+  position: relative;
+  z-index: 40;
+  opacity: 0.82;
+  background-color: #212121;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 2px;
+  font-size: 20px;
+  color: white;
+}
+
+.caja-reloj span {
+  background-color: #212121;
+  opacity: 0.82;
+  color: white;
+  font-size: 30px;
+  font-size: 21px;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .caja-reloj p {
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 2px;
+  }
+
+  .caja-reloj span {
+    font-size: 15px;
+    padding: 3px;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .caja-centrada {
+    margin-top: -14px;
+    margin-bottom: -35px;
+  }
+  .caja-reloj p {
+    display: inline-block;
+    text-align: center;
+    font-size: 11px;
+    padding: 2px;
+  }
+
+  .caja-reloj span {
+    font-size: 12px;
+    padding: 2px;
+  }
+}
