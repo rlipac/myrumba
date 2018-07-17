@@ -156,6 +156,7 @@ footer {
 .canciones {
   color: #ff9100 ;
   margin-left: 18px;
+  font-size: 20px;
 }
 
 .logo {
@@ -191,6 +192,7 @@ footer {
 
 .portada {
   background-image: url("../images/dj4.jpg");
+  min-width: 100vw;
   height: 330px;
   padding: 1em;
   color: white;
@@ -303,6 +305,7 @@ footer {
 
   .portada {
     background-image: url("../images/dj3.jpg");
+    width: auto;
     height: 260px;
     padding: 1.2em;
     font-size: 1em;
@@ -373,6 +376,9 @@ footer {
     left: -230px;
     top: -60px;
     min-width:200px; 
+  }
+  .canciones {
+    font-size: 18px;
   }
   
 
@@ -463,6 +469,11 @@ footer {
     border-radius: 2px;
   }
 
+  .canciones {
+    font-size: 19px;
+    margin-left: 5px;
+  }
+
   .title {
     text-align: center;
     font-size: 2em;
@@ -477,6 +488,7 @@ footer {
 
   .portada {
     background-image: url("../images/dj5.jpg");
+    width: auto;
     height: 170px;
     font-size: 0.7em;
   }
@@ -553,7 +565,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 360px) {
   body {
     margin: 0;
     padding: 0;
@@ -574,6 +586,13 @@ footer {
     font-size: 14px;
   }
 
+  .logo {
+    position: relative;
+    left: -7px;
+    top: -130px;
+     max-width:300px; 
+   }
+   
   .title {
     text-align: center;
     font-size: 2.6em;
@@ -602,6 +621,7 @@ footer {
   }
   .portada {
     background-image: url("../images/dj6.jpg");
+    width: auto;
     height: 90px;
   }
 
