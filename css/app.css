@@ -627,7 +627,7 @@ footer {
     margin-bottom: 10px;
   }
 
-  img {
+  .myMusic {
     min-height: 300px;
     max-height: 160px;
     max-width: 310px;
@@ -653,6 +653,7 @@ footer {
     margin-top: 10px;
   }
   .logo-perfil {
+   
     display: none;
 
   }
@@ -668,8 +669,10 @@ footer {
     
     .my-face {
       display:block;
-     
-      height: 50px;
+       height: 150px;
+       width: 150px;
+       margin-bottom: 15px;
+       margin-top:30px;
     }
     
     .title-logo {
@@ -677,7 +680,9 @@ footer {
       margin: auto;
       font-size: 30px;
       color: #424242 ;
+       margin-bottom: 15px;
      }
+
 
 }
   
