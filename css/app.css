@@ -20,7 +20,8 @@ a {
 }
 
 article {
-  margin: auto;
+  margin: auto; 
+  margin-bottom: 20px;
   width: 76%;
   padding: 10px;
   padding: 10px;
@@ -521,6 +522,7 @@ footer {
 
   article {
     margin: auto;
+    margin-bottom: 20px;
     width: 92%;
     padding: 0px;
   }
