@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
+ 
 }
 
 body {
@@ -237,23 +237,27 @@ footer {
 
 .logo-perfil-small {
   display: none;
+
 }
 .logo-perfil {
-  padding: 0p;
-  display: flex;
-  flex-direction: row;
+ display: block;
+ width: 400px;
+ margin-left: -100px;
+ margin-top: 50px;
 }
 
 .my-face {
- 
-  margin: auto;
-  height: 80px;
+ display: inline-block;
+ margin-right: 0px;
   border-radius: 50%;
+  margin-left: 0px;
 }
 
 
 .title-logo {
-  margin: auto;
+ 
+ position: relative;
+ left: -60px;
   font-size: 25px;
   color: #212121;
 }
@@ -289,12 +293,14 @@ footer {
 }
 
 .logo-perfil {
-  padding-top: 110px;
-  padding-left: 40px;
+  
+  display: block;
+  margin-left: 0px;
 }
 
 
 .title-logo {
+ margin: auto;
   font-size: 15px;
   color: #424242 ;
   font-family: "Courgette", cursive;
@@ -382,25 +388,15 @@ footer {
 }
 
 .logo-perfil {
- 
-  display: flex;
-  flex-direction: row;
-  width: 400px;
-  height: 200px;
- 
+  margin-left: 30px;
 }
 
-.my-face {
- 
-
-  height: 100px;
-  border-radius: 50%;
-}
 
 .title-logo {
-  margin: auto;
- 
-  font-size: 40px;
+
+  font-size: 19px!important;
+  margin-left: 80px;
+  font-family: "Courgette", cursive;
 }
 
 
@@ -492,23 +488,20 @@ footer {
     text-align: center;
   }
   .logo-perfil {
-    padding: 0px;
-    display: flex;
-    flex-direction: row;
-    width: 280px;
+   display: flex;
+   justify-content: space-between;
   }
   
-
-.my-face {
- 
-  height: 80px;
- 
-}
-
-.title-logo {
- 
-  font-size: 22px;
-}
+  
+  .title-logo {
+    font-size: 25px!important;
+    margin-left: 80px;
+    font-family: "Courgette", cursive;
+  }
+  .my-face {
+    height: 80px;
+    width: 80px;
+  }
 
  }
 
@@ -660,7 +653,7 @@ footer {
 
   .logo-perfil-small {
     display: flex;
-    flex-direction:column;
+  flex-direction: column;
     margin: auto;
    
      margin-bottom: 20px;
@@ -677,10 +670,10 @@ footer {
     
     .title-logo {
       display:block;
-      margin: auto;
+      margin-left: 50px;
       font-size: 30px;
       color: #424242 ;
-       margin-bottom: 15px;
+      margin-bottom: 15px;
      }
 
 
