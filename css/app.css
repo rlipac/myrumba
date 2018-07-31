@@ -248,6 +248,8 @@ footer {
 
 .my-face {
  display: inline-block;
+ height: 80px;
+ width: 80px;
  margin-right: 0px;
   border-radius: 50%;
   margin-left: 0px;
@@ -258,7 +260,7 @@ footer {
  
  position: relative;
  left: -60px;
-  font-size: 25px;
+  font-size: 35px!important;
   color: #212121;
 }
 
@@ -620,7 +622,7 @@ footer {
     margin-bottom: 10px;
   }
 
-  .myMusic {
+ .myMusic2 {
     min-height: 300px;
     max-height: 160px;
     max-width: 310px;
