@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -163,8 +164,8 @@ footer {
   position: relative;
   left: -480px;
   top: -100px;
-  
 }
+
 
 .myImages {
   width: auto;
@@ -191,6 +192,9 @@ footer {
 }
 
 .portada {
+  
+  display: flex;
+  justify-content: space-between;
   background-image: url("../images/dj4.jpg");
   min-width: 100vw;
   height: 330px;
@@ -230,7 +234,31 @@ footer {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1025px) {
+.logo-perfil-small {
+  display: none;
+}
+.logo-perfil {
+  padding: 0p;
+  display: flex;
+  flex-direction: row;
+}
+
+.my-face {
+ 
+  margin: auto;
+  height: 80px;
+  border-radius: 50%;
+}
+
+
+.title-logo {
+  margin: auto;
+  font-size: 25px;
+  color: #212121;
+}
+
+
+@media  (max-width: 1025px) {
   body {
     margin: 0;
     padding: 0;
@@ -259,7 +287,19 @@ footer {
   }
 }
 
-@media screen and (max-width: 800px) {
+.logo-perfil {
+  padding-top: 110px;
+  padding-left: 40px;
+}
+
+
+.title-logo {
+  font-size: 15px;
+  color: #424242 ;
+  font-family: "Courgette", cursive;
+}
+
+@media  (max-width: 800px) {
   body {
     margin: 0;
     padding: 0;
@@ -340,7 +380,33 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+.logo-perfil {
+ 
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 200px;
+ 
+}
+
+.my-face {
+ 
+
+  height: 100px;
+  border-radius: 50%;
+}
+
+.title-logo {
+  margin: auto;
+ 
+  font-size: 40px;
+}
+
+
+
+
+
+ @media (max-width: 768px) {
   body {
     margin: 0;
     padding: 0;
@@ -424,9 +490,30 @@ footer {
     font-family: "Courgette", cursive;
     text-align: center;
   }
+  .logo-perfil {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+  }
+  
+
+.my-face {
+ 
+  height: 80px;
+ 
 }
 
+.title-logo {
+ 
+  font-size: 22px;
+}
+
+ }
+
 @media screen and (max-width: 500px) {
+
+
   * {
     margin: 0;
     padding: 0;
@@ -550,8 +637,8 @@ footer {
 
   .title {
     position: relative;
-    left: 40px;
-    top: 85px;
+    left: 27px;
+    top: 20px;
     font-size: 5.5em;
     color: #e65100;
   }
@@ -563,9 +650,37 @@ footer {
     margin-bottom: 10px;
     margin-top: 10px;
   }
-}
+  .logo-perfil {
+    display: none;
 
-@media screen and (max-width: 360px) {
+  }
+
+  .logo-perfil-small {
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+   
+     margin-bottom: 20px;
+     width: 350px;
+    }
+    
+    .my-face {
+      display:block;
+     
+      height: 50px;
+    }
+    
+    .title-logo {
+      display:block;
+      margin: auto;
+      font-size: 30px;
+      color: #424242 ;
+     }
+
+}
+  
+
+@media  (max-width: 360px) {
   body {
     margin: 0;
     padding: 0;
@@ -593,12 +708,11 @@ footer {
      max-width:300px; 
    }
    
-  .title {
+  h1.title {
     text-align: center;
-    font-size: 2.6em;
-    float: left;
-    margin-top: 3px;
     color: #e65100;
+    position: relative;
+    top: 15px;
   }
 
   .container {
