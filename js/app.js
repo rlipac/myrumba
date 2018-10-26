@@ -4,7 +4,6 @@ $(document).ready(function() {
   });
 
   /*
-
   $("#boton1").click(function () {
     $(".carpetas-1").toggle(800);
   });
@@ -116,6 +115,5 @@ $(document).ready(function() {
     $(".carpetas-30").toggle(800);
   });
 
-
- */
+  */
 });
